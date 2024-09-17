@@ -126,7 +126,7 @@ export default function SignUpForm() {
                   {!isCheckingUsername && usernameMessage && (
                     <p
                       className={`text-sm mt-2 ${
-                        usernameMessage === 'Username is unique'
+                        usernameMessage === 'Username is available'
                           ? 'text-green-500'
                           : 'text-red-500'
                       }`}
@@ -185,7 +185,7 @@ export default function SignUpForm() {
         <div className="text-center mt-4">
           <p className="text-gray-400">
             Already a member?{' '}
-            <Link href="/sign-in" className="text-cyan-400 hover:underline">
+            <Link href="/sign-in" className="text-cyan-400 hover:text-cyan-300">
               Sign in
             </Link>
           </p>

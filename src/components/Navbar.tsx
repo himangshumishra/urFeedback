@@ -26,8 +26,8 @@ function Navbar() {
             </Button>
           </>
         ) : (
-          <Link href="/sign-in">
-            <Button className="w-full md:w-auto bg-slate-100 text-black" variant={'outline'}>Login</Button>
+          <Link href="/sign-up">
+            <Button className="w-full md:w-auto bg-slate-100 text-black" variant={'outline'}>Join Now</Button>
           </Link>
         )}
       </div>
